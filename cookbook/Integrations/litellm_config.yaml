@@ -1,0 +1,35 @@
+model_list:
+  # - model_name: gpt-3.5-turbo
+  #   litellm_params:
+  #     model: gpt-3.5-turbo
+  #     api_key: <openai_key>
+  - model_name: ollama/llama3
+    litellm_params:
+      model: ollama/llama3
+      api_base: http://localhost:11434
+  # - model_name: ollama/mistral
+  #   litellm_params:
+  #     model: ollama/mistral
+  - model_name: glm-4.5-flash
+    litellm_params:
+      model: openai/glm-4.5-flash
+      api_key: 73c80b33ad68446ea3f059efe5c1a65f.T2PZjYiHcT2JYx2a
+      api_base: https://open.bigmodel.cn/api/paas/v4
+  - model_name: glm-4.5-airx
+    litellm_params:
+      model: openai/glm-4.5-airx
+      api_key: 73c80b33ad68446ea3f059efe5c1a65f.T2PZjYiHcT2JYx2a
+      api_base: https://open.bigmodel.cn/api/paas/v4
+# providers:
+#   openai:
+#     type: openai
+#     api_key: 73c80b33ad68446ea3f059efe5c1a65f.T2PZjYiHcT2JYx2a
+#     base_url: https://open.bigmodel.cn/api/paas/v4
+# models:
+#   glm-4.5-flash:
+#     provider: openai
+#     model: glm-4.5-flash
+
+#   glm-4.5-airx:
+#     provider: openai
+#     model: glm-4.5-airx
